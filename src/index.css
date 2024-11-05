@@ -1,0 +1,859 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", "Poopins", sans-serif;
+  /* border: 1px solid black; */
+}
+html{
+  font-size: 62.5%;
+}
+.color1{
+  color: rgba(0, 0, 0, 0.666);
+}
+.color2{
+  color: rgb(0, 159, 233, 0.755);
+}
+.buttons{
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px;
+}
+.button2{
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+}
+.buttons:hover{
+  background-color: rgba(0, 131, 187, 0.275);
+}
+.row0{
+  display: flex;
+  flex-direction: row;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.row1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.row2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.column0{
+  display: flex;
+  flex-direction: column;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.column1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.column2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button{
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(0, 174, 255);
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+button:hover{
+  background-color: rgb(0, 159, 233);
+  transition: 0.5s;
+}
+#btn1{
+  padding: 12px 40px;
+}
+#btn2{
+  margin-left: 8px;
+}
+#btn3{
+  font-size: 1.6rem;
+  padding: 14px 48px 10px;
+}
+#btn4{
+  border-radius: 0px 5px 5px 0px;
+  padding: 12px 70px;
+}
+.input{
+  width: 465px;
+  height: 41px;
+  border: 1px solid rgba(128, 128, 128, 0.392);
+  border-radius: 5px;
+}
+#input2{
+  width: 300px;
+}
+
+/* start of header section */
+
+.header{
+  background-color: #00aeff;
+}
+.headerdiv{
+  width: 94%;
+  justify-content: space-between;
+  padding: 0 3%;
+}
+#right{
+  justify-content: space-around;
+}
+#right > div{
+  padding: 0 12px;
+}
+#whatsapp{
+  border-right: 1px solid white;
+  height: 61px;
+}
+#whatsapp img{
+  width: 32px;
+  height: 32px;
+}
+#call{
+  width: 210px;
+  position: relative;
+}
+#call img{
+  width: 38px;
+  border-radius: 100%;
+  z-index: 2;
+}
+#callus{
+  display: none;
+}
+#call > div:first-child .column2{
+  position: absolute;
+  right: 12;
+  justify-content: space-between;
+  height: 80%;
+  width: 180;
+  background-color: #084482;
+  border-radius: 0px 20px 20px 0px;
+}
+#call p{
+  color: rgb(0, 159, 233);
+}
+#call h1{
+  color: white;
+  font-weight: 400;
+}
+#flag{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  height: 61px;
+}
+#flag img{
+  width: 32px;
+}
+#flag span{
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 8px;
+}
+#account{
+  width: 90px;
+  color: white;
+}
+#account img{
+  width: 30px;
+  padding: 5px;
+}
+#account p{
+  font-size: 1.4rem;
+}
+#toggle{
+  width: 20px;
+  display: none;
+}
+/* end of header section */
+/* start of first section */
+
+.first{
+  color: white;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.446), rgba(60, 51, 4, 0.124)),url(https://static.hotels.ng/v7/img/v7-homepage1.jpg) !important;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.firstdiv{
+  text-align: center;
+  padding: 85px 30px;
+  height: 30vh;
+}
+.first h1{
+  font-size: 3.3rem;
+  font-weight: 600;
+  margin: 0px;
+}
+.first p{
+  font-size: 2.1rem;
+  margin: 8px 0px 0px;
+}
+
+/* end of first section */
+/* start of second section */
+
+.second{
+  position: relative;
+}
+.seconddiv{
+  height: 120px;
+  width: 1030px;
+  position: absolute;
+  background-color: white;
+  top: -50px;
+  box-shadow: 0px 5px 20px rgba(128, 128, 128, 0.479);
+}
+.calendar{
+  margin: 0px 5px;
+}
+.seconddiv :placeholder-shown{
+  padding-left: 20px;
+}
+
+/* end of second section */
+/* start of third section */
+
+.thirddiv{
+  padding: 130px 20px 70px;
+}
+.one{
+  text-align: center;
+}
+.one h1{
+  font-size: 2.3rem;
+  word-spacing: -1.9;
+}
+.one p{
+  font-size: 1.75rem;
+  margin: 10px 0px 0px;
+}
+.boxes{
+  margin: 65px 0px;
+}
+.box{
+  border: 2px solid rgba(0, 159, 233, 0.775);
+  border-radius: 5px;
+  margin: 11px 11px;
+  display: flex;
+}
+.box > div{
+  padding: 14px 15px;
+  height: 70px;
+}
+.box .color2{
+  width: 113px;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+.box .color1{
+  font-size: 1.6rem;
+}
+.box .column2{
+  justify-content: space-between;
+}
+.panels{
+  flex-wrap: wrap;
+  max-width: 1200;
+}
+#panelone{
+  margin: 30px auto 65px;
+}
+.panel{
+  width: 27%;
+  margin: 12px 12px;
+}
+.panel img{
+  width: 100%;
+  height: 220px;
+}
+.absolute{
+  position: relative;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  background: black;
+  position: absolute;
+  opacity: 0;
+  transition: 1s;
+}
+.overlay:hover{
+  opacity: 0.3;
+  transition: .5s;
+}
+.panel1 > div:nth-child(2){
+  border: 1px solid rgba(0, 0, 0, 0.446);
+  padding: 0px;
+  border-radius: 0px 0px 5px 5px;
+  width: 99.5%;
+  height: 75px;
+}
+.panel1 > div:nth-child(2) h1{
+  font-size: 1.7rem;
+}
+.panel1 > div:nth-child(2) p{
+  font-size: 1.4rem;
+}
+#inner{
+  height:70%;
+  padding: 10px;
+  justify-content: space-between;
+}
+#paneltwo{
+  height: 475px;
+  margin: 55px auto 40px;
+}
+#paneltwo p{
+  font-size: 2.3rem;
+}
+#paneltwo h1{
+  margin-top: 25;
+  font-size: 2.2rem;
+}
+.panel2{
+  background-size: cover;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+.ovlay{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.layer{
+  width: 100%;
+  height: 80px;
+  transform: scaleY(1);
+  transform-origin: bottom;
+  bottom: 0;
+  position: absolute;
+  opacity: 0;
+  visibility: visible;
+  transition: all .3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.398);
+}
+.panel2:hover .layer{
+  opacity: 1;
+  transition: 0.5s;
+}
+.dark{
+  background: transparent;
+  border: 1px solid white;
+}
+.dark:hover{
+  border: none;
+  transform: scale(0.95);
+}
+.lagosCity{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.426), rgba(7, 7, 4, 0.377)),url(images/paneltwo/lagos_city1.jpg);
+}
+.abujaCity{
+  background-image:  linear-gradient(to right, rgba(0, 0, 0, 0.426), rgba(7, 7, 4, 0.377)),url(images/paneltwo/abuja_city1.jpg);
+}
+.calabarCity{
+  background-image:  linear-gradient(to right, rgba(0, 0, 0, 0.426), rgba(7, 7, 4, 0.377)),url(images/paneltwo/crossriver_city1.jpg);
+}
+.portHarcourt{
+  background-image:  linear-gradient(to right, rgba(0, 0, 0, 0.426), rgba(7, 7, 4, 0.377)),url(images/paneltwo/port-harcourt_city1.jpg);
+}
+.owerriCity{
+  background-image:  linear-gradient(to right, rgba(0, 0, 0, 0.426), rgba(7, 7, 4, 0.377)),url(images/paneltwo/owerri_city1.jpg);
+}
+.uyoCity{
+  background-image:  linear-gradient(to right, rgba(0, 0, 0, 0.426), rgba(7, 7, 4, 0.377)),url(images/paneltwo/uyo_city1.jpg);
+}
+.allhotels{
+  margin-top: 45px;
+}
+.line{
+  margin: 0px 11px;
+  width: 243px;
+}
+#line4{
+  width: 230px;
+}
+.line div{
+  margin-top: 16px;
+}
+.line div h1{
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+#fct{
+  margin-bottom: 36px;
+}
+.line div p{
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+/* end of third section */
+/* start of fourth section */
+
+.fourth{
+  background-color: rgba(177, 177, 177, 0.096);
+}
+.fourthdiv{
+  padding: 37px 30px;
+  text-align: center;
+}
+.fourth h1{
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+.fourth p{
+  font-size: 1.6rem;
+  margin: 15px 0px 30px;
+}
+.fourth :placeholder-shown{
+  padding-left: 20px;
+}
+
+/* end of fourth section */
+/* start of fifth section */
+
+.fifthdiv{
+  padding: 120px 30px 50px;
+  text-align: center;
+  width: 100%;
+}
+.logos{
+  max-width: 900px;
+  padding: 70px 0px 125px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.hide p{
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.show h1{
+  font-size: 2.3rem;
+}
+.show p{
+  margin: 20px 0px 29px;
+  font-size: 1.8rem;
+}
+
+/* end of the fitfth section */
+/* start of the sixth section */
+
+.sixth{
+  background-color: rgba(17, 106, 201, 0.076);
+}
+.sixthdiv{
+  padding: 85px 30px 0px;
+  align-items: flex-end;
+  margin: auto;
+}
+#lastpicture{
+  max-width: 500px;
+  width: 80%;
+}
+#lastpicture img{
+  width: 100%;
+}
+#lastpicturediv{
+  padding: 0px 0px 44px 44px;
+  max-width: 374px;
+  width: 80%;
+}
+#lastpicturediv h3{
+  font-size: calc(1.5rem + 10 * (100vw - 100rem)/ 550);
+  margin: 10px 0px 7px;
+}
+#lastpicturediv p{
+  font-size: 1.8rem;
+}
+#googleplay{
+  margin-top: 20px;
+}
+
+/* end of the sixth section */
+/* start of seventh section */
+
+.seventh{
+  background-color: rgb(11, 59, 123);
+}
+.seventhdiv{
+  padding: 30px 15px;
+}
+.seventhdiv > div:nth-child(2){
+  margin: 0px 40px 0px 10px;
+}
+.seventhdiv > .column0{
+  justify-content: space-between;
+}
+.seventhdiv > .column0 h1{
+  font-size: 1.6rem;
+}
+.seventhdiv > .column0 p{
+  font-size: 1.3rem;
+}
+.seventh h1{
+  color: white;
+}
+#seventhimage{
+  width: 42px;
+}
+#seventhimage img{
+  border-radius: 100%;
+  width: 100%;
+}
+.seventh input{
+  width: 260px;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid rgb(0, 159, 233);
+  margin-right: -3px;
+}
+.seventhdiv :placeholder-shown{
+  padding-left: 7px;
+}
+
+/* end of the seventh section */
+/* start of eighth section */
+
+.eighth h6{
+  font-size: 1.35rem;
+  font-weight: 200;
+  opacity: 0.8;
+}
+.eighth button{
+  text-decoration: none;
+  text-align: left;
+  font-size: 1.35rem;
+  line-height: 1.6;
+}
+.eighthdiv{
+  padding: 36px 30px 50px;
+}
+.numbers{
+  width: 980;
+  margin: auto;
+}
+.numbers > div{
+  width: 20%;
+}
+.eighthdiv > hr{
+  width: 1030;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.tops h6{
+  margin-bottom: 5px;
+}
+.links{
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+.footdiv{
+  width: 1030px;
+  justify-content: space-between;
+}
+.left p{
+  font-size: 1.4rem;
+}
+.left img{
+  width: 17px;
+}
+.images p{
+  font-size: 1.3rem;
+}
+.images #nanta{
+  width: 52px;
+  margin-left: 3px;
+  margin-right: 12px;
+}
+.images #ntdc{
+  width: 47px;
+}
+
+/* end of the eighth section */
+/* start  of the ninth secction */
+
+.ninth{
+  display: none;
+}
+
+/* end of the ninth section */
+/* start  of the screen-sizes secction */
+
+@media(min-width: 1440px){
+  #lastpicturediv h2{
+      font-size: 6.0rem;
+  }
+}
+@media(max-width: 1439px){
+  #lastpicturediv h2{
+      font-size: calc(3.0rem + 30 * (100vw - 100rem)/ 400);
+  }
+}
+@media(max-width:1199px){
+  .search{
+      width: 40%;
+  }
+  .calendar{
+      width: 25%;
+  }
+  .input{
+      width: 100%;
+  }
+  #input2{
+      width: 100%;
+  }
+  .seconddiv{
+      width: 100%;
+  }
+  .box{
+      width: 14%;
+  }
+  .panel1{
+      width: 95%;
+  }
+  .panel1 img{
+      height: auto;
+  }
+  .panels{
+      width: 100%;
+  }
+}
+@media(max-width: 1075px){
+  .headerdiv{
+      padding: 0 0 0 15px;
+      width: 97%;
+  }
+  .numbers{
+      width: 100%;
+  }
+  .eighthdiv hr{
+      width: 100%;
+  }
+}
+@media(max-width: 1000px){
+  #lastpicturediv h2{
+      font-size: calc(2.0rem + 20 * (100vw - 50rem)/ 500);
+  }
+  #lastpicturediv h3{
+      font-size: calc(2.0rem + 10 * (100vw - 50rem)/ 500);
+  }
+}
+@media(max-width: 991px){
+  #account{
+      display: none;
+  }
+  #toggle{
+      display: block;
+  }
+  #phone{
+      display: none;
+  }
+  #callus{
+      display: block;
+  }
+  #callus img{
+      width: 20px;
+  }
+  #callus p{
+      font-size: 1.5rem;
+      color: white;
+      margin-top: 5px;
+  }
+  #call{
+      width: 48px;
+      border-left: 1px solid white;
+      height: 61px;
+  }
+  #whatsapp{
+      display: none;
+  }
+  .boxes{
+      flex-wrap: wrap;
+  }
+  .box{
+      width: 25%;   
+  }
+  .box .color2{
+      width: 110px;
+  }
+}
+@media(max-width: 944px){
+  #paneltwo{
+      height: fit-content;
+  }
+  .panel2{
+      width: 45%;
+      height: 300px;
+  }
+}
+@media(max-width: 899px){
+  .logos{
+      width: 100%;
+      justify-content: space-around;
+  }
+  .fifthdiv{
+      width: 100%;
+  }
+}
+@media(max-width:767px){
+  #btn1{
+      padding: 12px 12px;
+  }
+  .search{
+      width: 60%;
+  }
+  .calendar{
+      display: none;
+  }
+  .search{
+      margin-right: 5px;
+  }
+  #flag{
+      display: none;
+  }
+  #call{
+      width: 75px;
+      border-left: none;
+  }
+  #callus{
+      display: flex;
+  }
+  #callus p{
+      margin-top: 0px;
+      margin-left: 5px;
+  }
+  .firstdiv{
+      text-align: center;
+      padding: 85px 30px;
+      height: 30vh;
+  }
+  .first h1{
+      font-size: 2.4rem;
+  }
+  .first p{
+      font-size: 1.4rem;
+  }
+  .seconddiv{
+      height: 120px;
+      background-color: #fafafa;
+      box-shadow: none;
+  }
+  .box{
+      width: 40%;
+  }
+  #paneltwo{
+      margin: 0;
+  }
+  .allhotels{
+      display: none;
+  }
+  .thirddiv :nth-child(7){
+      display: none;
+  }
+  .thirddiv{
+      padding-bottom: 50px;
+  }
+  .hide{
+      display: none;
+  }
+  #lastpicturediv{
+      padding: 0px 0px 44px 23px;
+  }
+  .seventh{
+      display: none;
+  }
+  .eighth{
+      display: none;
+  }
+  .ninth{
+      display: block;
+      background-color: rgb(11, 59, 123);
+  }
+  .ninthdiv{
+     padding: 22px 0px 30px; 
+  }
+  .ninth button{
+      font-weight: 600;
+      font-size: 1.6rem;
+      margin: 17px 0px;
+      color: white;
+      text-decoration: none;
+  }
+}
+@media(max-width:639px){
+  .panel2{
+      width: 95%;
+      height: 300px;
+  }
+  .headerdiv{
+      width: 94%;
+  }
+}
+@media(max-width: 550px){
+  .sixthdiv{
+      flex-direction: column-reverse;
+      align-items: center;
+      padding: 0;
+      width: 100%;
+  }
+  #lastpicturediv{
+      padding-left: 0px;
+      padding-top: 22px;
+  }
+  #lastpicture{
+      width: 90%;
+  }
+  #lastpicturediv h2{
+      font-size: 3.0rem;
+  }
+  #lastpicturediv h3{
+      font-size: 2.4rem;
+      margin: 10px 0px 7px;
+  }
+  #lastpicturediv p{
+      font-size: 1.6rem;
+  }
+  #googleplay{
+      width: 200px;
+      height: 60px;
+  }
+  #googleplay img{
+      width: 100%;
+      height: 100%;
+  }
+}
+@media(max-width: 450px){
+  #googleplay{
+      width: 150px;
+      height: 45px;
+  }
+}
+@media(max-width: 349px){
+  .first h1{
+      font-size: 2.0rem;
+  }
+}
